@@ -5,7 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 body {
   margin: 0 auto;
-  font-family: -apple-system, BlinkMacSystemFont, 'Intet';
+  font-family: -apple-system, BlinkMacSystemFont, 'Inter';
   
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -19,4 +19,18 @@ code {
 
 .App{
   margin: 0 auto;
+}
+
+.block_2{
+  background-image: url('./img/frame.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.link_btn{
+  text-align: center; color: white; font-size: 14px; font-family: Inter; font-weight: 700; text-transform: uppercase; line-height: 20px; letter-spacing: 0.56px; word-wrap: break-word;
+}
+
+.girl{
+  background-image: url('./img/girl.svg');
 }
