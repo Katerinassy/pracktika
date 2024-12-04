@@ -10,7 +10,18 @@ import hypebeast from './img/hypebeast.svg';
 import ArrowLeft from './img/ArrowLeft.svg';
 import ArrowRight from './img/ArrowRight.svg';
 import shirt from './img/shirt 1.svg';
-import girl from './img/girl.svg';
+import girl_2 from './img/girl_2.svg';
+import man from './img/man.svg';
+import vector_black from './img/Vector_black.svg';
+import vector_pirple from './img/ArrowUpRight.svg';
+import bloom from './img/Bloomberg.svg';
+import forbes from './img/Forbes.svg';
+import fromcompany from './img/Fast company.svg';
+import button from './img/Button.svg';
+import model_1 from './img/model_1.svg';
+import model_2 from './img/model_2.svg';
+import model_3 from './img/model_3.svg';
+import model_4 from './img/model_4.svg';
 import './index.css'
 function App() {
   return (
@@ -67,6 +78,106 @@ function App() {
           <button className='btn_1 mt-[524px] w-[153px] ml-[30px]  h-16 bg-black text-gray-50 rounded-md font-bold'>Shop Shirts</button>
         </div>
       </div>
+      <div className='Block_5 flex justify-center mt-20'>
+        <div className='Girl_2  relative '><img src={girl_2} />
+          <div className='cont2 flex absolute bottom-5 ml-8'>
+            <p className='women text-black text-sm flex font-medium '>WOMEN</p>
+            <img src={vector_black} className='mt-[4px] pl-2  ' alt="" />
+
+          </div>
+
+        </div>
+        <div className='man relative'>
+          <img src={man} />
+          <div className='cont3 flex absolute bottom-5 ml-8 '>
+            <p className='men text-black text-sm flex font-medium '>MEN
+              <img src={vector_black} className=' mt-[4px] pl-2 ' alt="" />
+            </p>
+          </div>
+
+        </div>
+      </div>
+      <div className='Block_6 mt-28'>
+        <p className='t text-center font-bold text-5xl'>Hot off the press</p>
+      </div>
+      <div className="h-[286px] p-8 rounded-lg border border-black/10 justify-start items-center gap-16 inline-flex mt-8 mx-11">
+        <div className="h-[199px] flex-col justify-start items-start gap-14 inline-flex">
+          <div className="self-stretch h-[123px] flex-col justify-start items-start gap-6 flex">
+            <div className="w-[130px] h-6 pl-[0.74px] pr-[0.58px] justify-center items-center inline-flex" />
+            <img src={bloom} alt="" />
+            <div className="self-stretch text-black text-lg font-medium font-['Inter'] leading-[25.20px]">“First Light: Where great design and the finest materials unite in ultimate comfort”</div>
+          </div>
+          <div className="justify-start items-start gap-2 inline-flex">
+            <div className="text-center text-[#a857f9] text-sm font-bold font-['Inter'] uppercase leading-tight tracking-wide">Read article</div>
+            <img src={vector_pirple} alt="" />
+            <div className="w-5 h-5 px-[4.37px] pt-[4.38px] pb-[4.37px] justify-center items-center flex" />
+          </div>
+        </div>
+        <div className="w-[222px] h-px  rotate-90 opacity-10 border border-black"></div>
+        <div className="h-[199px] flex-col justify-start items-start gap-14 inline-flex">
+          <div className="self-stretch h-[123px] flex-col justify-start items-start gap-6 flex">
+            <div className="w-[130px] h-6 pl-[0.74px] pr-[0.58px] justify-center items-center inline-flex" />
+            <img src={forbes} alt="" />
+            <div className="self-stretch text-black text-lg font-medium font-['Inter'] leading-[25.20px]">“First light proves it is possible to combine great design with the finest materials available.”</div>
+          </div>
+          <div className="justify-start items-start gap-2 inline-flex">
+            <div className="text-center text-[#a857f9] text-sm font-bold font-['Inter'] uppercase leading-tight tracking-wide">Read article</div>
+            <img src={vector_pirple} alt="" />
+            <div className="w-5 h-5 px-[4.37px] pt-[4.38px] pb-[4.37px] justify-center items-center flex" />
+          </div>
+        </div>
+        <div className="w-[222px] h-px  rotate-90 opacity-10 border border-black"></div>
+        <div className="h-[199px] flex-col justify-start items-start gap-14 inline-flex">
+          <div className="self-stretch h-[123px] flex-col justify-start items-start gap-6 flex">
+            <div className="w-[130px] h-6 pl-[0.74px] pr-[0.58px] justify-center items-center inline-flex" />
+            <img src={fromcompany} alt="" />
+            <div className="self-stretch text-black text-lg font-medium font-['Inter'] leading-[25.20px]">“Redefining excellence with premium materials and visionary robust design.”</div>
+          </div>
+          <div className="justify-start items-start gap-2 inline-flex">
+            <div className="text-center text-[#a857f9] text-sm font-bold font-['Inter'] uppercase leading-tight tracking-wide">Read article</div>
+            <img src={vector_pirple} alt="" />
+            <div className="w-5 h-5 px-[4.37px] pt-[4.38px] pb-[4.37px] justify-center items-center flex" />
+          </div>
+        </div>
+      </div>
+      <div className='block_7 mt-32'>
+        <p className='t text-center font-bold  text-5xl'>Women — Must Haves</p>
+      </div>
+      <div className='block_7_1 mt-5 flex'>
+        <img src={button} alt='' />
+      </div>
+      <div className='Block_7 flex justify-center  gap-8 ml-5'>
+        <div className='block_7_2  '>
+          <img src={model_1} alt='' />
+          <div className='tex flex ml-5 mt-3'>
+            <p className='gap-4'>Basic Shirt</p>
+            <p className=''>€49</p>
+          </div>
+
+        </div>
+        <div className='block_7_3 '>
+          <img src={model_2} alt='' />
+          <div className='tex flex  mt-3 ml-5'>
+            <p className=''>Beige Jumper</p>
+            <p className=''>€99</p>
+          </div>
+        </div>
+        <div className='block_7_4'>
+          <img src={model_3} alt='' />
+          <div className='tex flex mt-3 ml-5'>
+            <p className=''>Signature Jacket</p>
+            <p className=''>€249</p>
+          </div>
+        </div>
+        <div className='block_7_4'>
+          <img src={model_4} alt='' />
+          <div className='tex flex mt-3 ml-5'>
+            <p className=''>Navy Jumper</p>
+            <p className=''>€49</p>
+          </div>
+        </div>
+      </div>
+
     </div >
   );
 }
