@@ -35,5 +35,26 @@ code {
   background-image: url('./img/girl.svg');
 }
 
+.hlopok{
+  height: 700px;
+  width: 600px;
+}
 
+.poshiv{
+  height: 335px;
+  width: 600px;
+}
 
+.tkan{
+  height: 335px;
+  width: 600px;
+}
+
+.block1-1{
+  background-image: url('./img/flower.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 596px;
+  height: 600px;
+}

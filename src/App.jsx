@@ -22,6 +22,10 @@ import model_1 from './img/model_1.svg';
 import model_2 from './img/model_2.svg';
 import model_3 from './img/model_3.svg';
 import model_4 from './img/model_4.svg';
+import button_2 from './img/Button (1).svg';
+import hand from './img/hand.png';
+import tkan from './img/tkan.png';
+import boy from './img/boy.svg';
 import './index.css'
 function App() {
   return (
@@ -39,11 +43,13 @@ function App() {
           <div class="w-2 h-2 opacity-50 bg-white rounded-full"></div>
         </div>
       </div>
+
       <div className="block_1 flex justify-center my-10 ">
         <img src={FIRST} alt='FIRST'></img>
         <img src={Subtract} alt='Subtract'></img>
         <img src={LIGHT} alt='LIGHT'></img>
       </div>
+
       <div className='block_2 h-[773px] flex  items-end justify-center mx-0 '>
         <div className="div flex w-[1217px] justify-between items-center pl-[112px]">
 
@@ -64,6 +70,7 @@ function App() {
           <img src={hypebeast} alt="" />
         </div>
       </div>
+
       <div className='Block_4 flex'>
         <div className='Shirt w-1/2 justify-center text-center mt-56'>
           <div className="flex justify-center ">
@@ -78,14 +85,24 @@ function App() {
           <button className='btn_1 mt-[524px] w-[153px] ml-[30px]  h-16 bg-black text-gray-50 rounded-md font-bold'>Shop Shirts</button>
         </div>
       </div>
+
+      <div className='Block_44 mt-32 flex justify-center'>
+        <div className="flex justify-between relative">
+          <img src={boy} className='rounded-lg w-[500px] h-[536px] mr-9 bg-gray-400' />
+          <button className='absolute left-10 btn_1 mt-[434px]  w-[153px] h-16 bg-black  text-gray-50 rounded-md font-bold'>Shop Shirts</button>
+          <div className="h-[536px] w-[500px] p-10 ml-6 bg-[#fb791c] rounded-lg flex-col justify-between items-start inline-flex ">
+            <p className="self-stretch grow shrink basis-0 text-black text-[40px] font-bold font-['Inter'] leading-[48px]">“ First Light promises quality, timeless designs and with our mission it is truly a buy it for life purchase. “</p>
+            <p className="self-stretch grow shrink basis-0 text-black text-sm font-bold font-['Inter'] mt-52 leading-[30px]">— Guera Latissa, Creative Director</p>
+          </div>
+        </div>
+      </div>
+
       <div className='Block_5 flex justify-center mt-20'>
         <div className='Girl_2  relative '><img src={girl_2} />
           <div className='cont2 flex absolute bottom-5 ml-8'>
             <p className='women text-black text-sm flex font-medium '>WOMEN</p>
             <img src={vector_black} className='mt-[4px] pl-2  ' alt="" />
-
           </div>
-
         </div>
         <div className='man relative'>
           <img src={man} />
@@ -94,9 +111,9 @@ function App() {
               <img src={vector_black} className=' mt-[4px] pl-2 ' alt="" />
             </p>
           </div>
-
         </div>
       </div>
+
       <div className='Block_6 mt-28'>
         <p className='t text-center font-bold text-5xl'>Hot off the press</p>
       </div>
@@ -140,42 +157,62 @@ function App() {
           </div>
         </div>
       </div>
+
       <div className='block_7 mt-32'>
         <p className='t text-center font-bold  text-5xl'>Women — Must Haves</p>
       </div>
-      <div className='block_7_1 mt-5 flex'>
-        <img src={button} alt='' />
-      </div>
       <div className='Block_7 flex justify-center  gap-8 ml-5'>
+        <button className=''><img src={button} alt="" /></button>
         <div className='block_7_2  '>
           <img src={model_1} alt='' />
-          <div className='tex flex ml-5 mt-3'>
-            <p className='gap-4'>Basic Shirt</p>
+          <div className='tex flex mt-3 justify-between'>
+            <p className=''>Basic Shirt</p>
             <p className=''>€49</p>
           </div>
-
         </div>
         <div className='block_7_3 '>
           <img src={model_2} alt='' />
-          <div className='tex flex  mt-3 ml-5'>
+          <div className='tex flex mt-3 justify-between'>
             <p className=''>Beige Jumper</p>
             <p className=''>€99</p>
           </div>
         </div>
         <div className='block_7_4'>
           <img src={model_3} alt='' />
-          <div className='tex flex mt-3 ml-5'>
+          <div className='tex flex mt-3 justify-between'>
             <p className=''>Signature Jacket</p>
             <p className=''>€249</p>
           </div>
         </div>
         <div className='block_7_4'>
           <img src={model_4} alt='' />
-          <div className='tex flex mt-3 ml-5'>
+          <div className='tex flex mt-3 justify-between'>
             <p className=''>Navy Jumper</p>
             <p className=''>€49</p>
           </div>
         </div>
+        <button className=''><img src={button_2} alt="" /></button>
+      </div>
+
+      <div className='block_8 mt-32'>
+        <p className='t text-center font-bold  text-5xl'>We always have your back</p>
+      </div>
+
+      <div className='block_8_1 flex gap-6'>
+        <div className='block1-1 w-1/2 mt-10 flex items-end justify-center pb-[24px]'>
+          <button className='btn_1 w-[253px]    h-16 bg-black text-gray-50 rounded-md font-bold'>100% Premium Cotton
+          We use ethically sourced cotton only.</button>
+        </div>
+
+
+        <div className="block1-2">
+          <button className='btn_2'></button>
+        </div>
+        <div className="bl  ock1-3"></div>
+        {/* <div className='n1 w-1/2 mb-6 mt-10 '>
+          <img src={hand} className='poshiv' alt='' />
+          <img src={tkan} alt='' className='tkan mt-10' />
+        </div> */}
       </div>
 
     </div >
