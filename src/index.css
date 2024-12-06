@@ -6,7 +6,7 @@
 body {
   margin: 0 auto;
   font-family: -apple-system, BlinkMacSystemFont, 'Inter';
-  
+   background-color: #F3F3F3;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -33,6 +33,10 @@ code {
 
 .girl{
   background-image: url('./img/girl.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 720px;
+  height: 720px;
 }
 
 .hlopok{
@@ -57,4 +61,22 @@ code {
   background-size: cover;
   width: 596px;
   height: 600px;
+}
+.block1-2{
+  background-image: url('./img/hand.png') ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 596px;
+  height: 300px;
+  
+}
+.block1-3{
+  background-image: url('./img/tkan.png') ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 596px;
+  height: 300px;
+
 }

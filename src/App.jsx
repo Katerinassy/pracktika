@@ -23,9 +23,12 @@ import model_2 from './img/model_2.svg';
 import model_3 from './img/model_3.svg';
 import model_4 from './img/model_4.svg';
 import button_2 from './img/Button (1).svg';
-import hand from './img/hand.png';
-import tkan from './img/tkan.png';
+import box from './img/box.svg';
+import box_2 from './img/box_2.svg';
+import star from './img/star.svg';
+import cap from './img/cap.svg';
 import boy from './img/boy.svg';
+import inerier from './img/block_10.svg';
 import './index.css'
 function App() {
   return (
@@ -194,26 +197,97 @@ function App() {
         <button className=''><img src={button_2} alt="" /></button>
       </div>
 
-      <div className='block_8 mt-32'>
-        <p className='t text-center font-bold  text-5xl'>We always have your back</p>
-      </div>
+      <div className="block-8-inner justify-center gap-[32px] flex flex-col mt-[64px]">
 
-      <div className='block_8_1 flex gap-6'>
-        <div className='block1-1 w-1/2 mt-10 flex items-end justify-center pb-[24px]'>
-          <button className='btn_1 w-[253px]    h-16 bg-black text-gray-50 rounded-md font-bold'>100% Premium Cotton
-          We use ethically sourced cotton only.</button>
+        <div className='block_8 mt-32'>
+          <p className='t text-center font-bold  text-5xl'>We always have your back</p>
         </div>
 
+        <div className='block_8_1 justify-center mp-[64px] flex gap-6'>
+          <div className='block1-1 w-1/2 h-[600px]  flex items-end justify-center pb-[24px]'>
+            <button className='btn_1 w-[253px]    h-16 bg-black text-gray-50 rounded-md font-bold'>100% Premium Cotton
+              We use ethically sourced cotton only.</button>
+          </div>
+          <div className="block-2-3 flex flex-col gap-[24px]">
 
-        <div className="block1-2">
-          <button className='btn_2'></button>
+            <div className="block1-2">
+              <button className='btn_2 w-[253px]  h-14 bg-black ml-44 mt-56 text-gray-50 rounded-md font-bold'>Made in Portugal
+                With hand finished details</button>
+            </div>
+            <div className="block1-3">
+              <button className='btn_3 w-[253px]  h-12 bg-black ml-44 mt-56 text-gray-50 rounded-md font-bold'>Breathable material
+                Keeping you cool throughout the day</button>
+            </div>
+          </div>
         </div>
-        <div className="bl  ock1-3"></div>
-        {/* <div className='n1 w-1/2 mb-6 mt-10 '>
-          <img src={hand} className='poshiv' alt='' />
-          <img src={tkan} alt='' className='tkan mt-10' />
-        </div> */}
       </div>
+
+      <div className='block_9 justify-center text-black flex mt-32'>
+        <div className="w-[1216px] opacity-10 border border-black">
+          <div className="w-[1216px] h-14 justify-between items-start inline-flex">
+            <div className="justify-start items-center text-black gap-4 flex">
+              <img src={cap} className='gh ' />
+              <p className="w-[140px]text-base font-medium font-['Inter']  text-black leading-tight">Premium stain resistant fabrics</p>
+            </div>
+            <div className="justify-start items-center text-black gap-4 flex">
+              <img src={box} className='gh ' />
+              <p className="w-[140px] text-base font-medium font-['Inter']  text-black leading-tight">Free Express Shipping</p>
+            </div>
+            <div className="justify-start text-black  items-center gap-4 flex">
+              <img src={box_2} className='gh ' />
+              <p className="w-[140px]  text-base font-medium font-['Inter']  text-black leading-tight">Free returns within 30 days</p>
+            </div>
+            <div className="justify-start items-center text-black gap-4 flex">
+              <img src={star} className='gh ' />
+              <p className="w-[140px] text-black text-base font-medium font-['Inter'] leading-tight">Customers rate  us 4.8 / 5.0</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className='block_10 justify-center flex'>
+        <div className='rounded-lg h-[536px] mt-9 flex text-center'>
+          <img src={inerier} className='gh' />
+        </div>
+
+        <div className='bg-white rounded-lg w-[608px] h-[536px] mt-9'>
+          <div className='ml-11 block_head'>
+            <p className='w-[308px] text-black text-[32px] mt-7 font-bold'>Visit our popup shop</p>
+            <p className='w-[180px] text-black text-base mt-8  font-bold'>Willemsparkweg 63 1071 GS Amsterdam The Netherlands</p>
+          </div>
+          <div className='weed flex mt-8 ml-11 flex-col gap-5'>
+            <div className='flex justify-between items-center'>
+              <p className='mr-4  font-bold'>Monday</p>
+              <p className='w-[180px] text-black text-base  font-bold'>12.00 - 19.00</p>
+            </div>
+            <div className='flex  justify-between items-center'>
+              <p className='mr-4 font-bold'>Tuesday</p>
+              <p className='w-[180px] text-black text-base font-bold'>10.00 - 19.00</p>
+            </div>
+            <div className='flex justify-between items-center'>
+              <p className='mr-4 font-bold'>Wednesday</p>
+              <p className='w-[180px] text-black text-base font-bold'>10.00 - 19.00</p>
+            </div>
+            <div className='flex justify-between items-center'>
+              <p className='mr-4 font-bold'>Thursday</p>
+              <p className='w-[180px] font-bold text-black text-base'>10.00 - 21.00</p>
+            </div>
+            <div className='flex justify-between items-center'>
+              <p className='mr-4 font-bold'>Friday</p>
+              <p className='w-[180px] font-bold text-black text-base'>10.00 - 19.00</p>
+            </div>
+            <div className='flex justify-between font-bold items-center'>
+              <p className='mr-4 font-bold'>Saturday</p>
+              <p className='w-[180px] text-black font-bold text-base'>10.00 - 18.00</p>
+            </div>
+            <div className='flex justify-between items-center'>
+              <p className='mr-4 font-bold'>Sunday</p>
+              <p className='w-[180px] font-bold text-black text-base'>12.00 - 18.00</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
 
     </div >
   );
